@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+   
+    .body1{
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color:blue;
+      color: #fff;
+      margin: 0px;
+      margin-top:60px;
+      margin-left:10%;
+      width: 80%;
+   
+        }
+
+    nav ul {
+      list-style-type: none;
+      margin: 10px;
+      padding: 20px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-left: 30px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 30px;
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px;
+    }
+
+    nav ul li a:hover {
+      background-color: yellow;
+      border-radius: 10%;
+      color: red;
+    }
+    
+    
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+     
+     
+    }
+    .img1 {
+      top:-100px;
+     
+     
+    }
+    
+    
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-top:-30%;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.button1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: red;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+a
+{
+color:green;
+text-decoration: none;
+}
+
+
+body {
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    
+  </style>
+   </head>
+  <body class="body1" bgcolor="#C0C0C0">
+  <h1 align="center" style="color:solid black;">Employee Management System</h1>
+    <nav>
+    <ul>
+      <li ><a href="home.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+     
+    </ul>
+  
+  </nav>
+
+
+<div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3> Employee Details Update here</h3>
+            
+          </div>
+        </div>
+        <form action="UpdateCode" method="post" class="login-form" >
+        
+        
+          <input type="text" name="name" placeholder="enter the name"/>
+          
+          <input type="password" name="password" placeholder="password"/>
+          
+          <input type="email" name="email" placeholder="email"/>
+          
+        
+        
+        <input type="text"  name="mobile" placeholder="enter mobilenumber"/>
+          
+          
+         <textarea rows="4" cols="33" name="address" placeholder="Enter Address"></textarea>
+         
+          <button>Update</button>
+          <input type="reset" class="button1" value="Reset">
+        </form>
+      </div>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+   
+    .body1{
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color:blue;
+      color: #fff;
+      margin: 0px;
+      margin-top:60px;
+      margin-left:10%;
+      width: 80%;
+   
+        }
+
+    nav ul {
+      list-style-type: none;
+      margin: 10px;
+      padding: 20px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-left: 30px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 30px;
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px;
+    }
+
+    nav ul li a:hover {
+      background-color: yellow;
+      border-radius: 10%;
+      color: red;
+    }
+    
+    
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+     
+     
+    }
+    .img1 {
+      top:-100px;
+     
+     
+    }
+    
+    
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin-top:-30%;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form select {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.button1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: red;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+a
+{
+color:green;
+text-decoration: none;
+}
+
+
+body {
+  background-color: #328f8a;
+  background-image: linear-gradient(45deg,#328f8a,#08ac4b);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    
+  </style>
+   </head>
+  <body class="body1" bgcolor="#C0C0C0">
+  <h1 align="center" style="color:solid black;">Employee Management System</h1>
+    <nav>
+    <ul>
+      <li ><a href="home.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+     
+    </ul>
+  
+  </nav>
+
+
+<div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>New Employee Register Here</h3>
+            
+          </div>
+        </div>
+        <form action="RegisterCode" method="post" class="login-form" >
+          <input type="text" name="name" placeholder="enter the name"/>
+          <input type="password" name="PASSWORD" placeholder="password"/>
+          <input type="email" name="email" placeholder="email"/>
+          
+        <select name="gender">
+        <option value="">Select Your Gender</option>
+        <option value="male">male</option>
+        <option value="female">Female</option>
+        <option value="other">other</option>
+        
+        </select>
+        
+          <input type="text"  name="mobile" placeholder="enter mobilenumber"/>
+          
+          <select  name="state">
+			    <option value="">Select state</option>
+			    <option value="AN">Andaman and Nicobar Islands</option>
+			    <option value="AP">Andhra Pradesh</option>
+			    <option value="AR">Arunachal Pradesh</option>
+			    <option value="AS">Assam</option>
+			    <option value="BR">Bihar</option>
+			    <option value="CH">Chandigarh</option>
+			    <option value="CT">Chhattisgarh</option>
+			    <option value="DN">Dadra and Nagar Haveli</option>
+			    <option value="DD">Daman and Diu</option>
+			    <option value="DL">Delhi</option>
+			    <option value="GA">Goa</option>
+			    <option value="GJ">Gujarat</option>
+			    <option value="HR">Haryana</option>
+			    <option value="HP">Himachal Pradesh</option>
+			    <option value="JK">Jammu and Kashmir</option>
+			    <option value="JH">Jharkhand</option>
+			    <option value="KA">Karnataka</option>
+			    <option value="KL">Kerala</option>
+			    <option value="LA">Ladakh</option>
+			    <option value="LD">Lakshadweep</option>
+			    <option value="MP">Madhya Pradesh</option>
+			    <option value="MH">Maharashtra</option>
+			    <option value="MN">Manipur</option>
+			    <option value="ML">Meghalaya</option>
+			    <option value="MZ">Mizoram</option>
+			    <option value="NL">Nagaland</option>
+         </select>
+         
+         <select name="select_country">
+			 <option value="">Select Country</option>
+		     <option value="Afghanistan">Afghanistan</option>
+			<option value="Albania">Albania</option>
+			<option value="Algeria">Algeria</option>
+			<option value="American Samoa">American Samoa</option>
+			<option value="Andorra">Andorra</option>
+			<option value="Angola">Angola</option>
+			<option value="Anguilla">Anguilla</option>
+			<option value="Antartica">Antarctica</option>
+			<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+			<option value="Argentina">Argentina</option>
+			<option value="Armenia">Armenia</option>
+			<option value="Aruba">Aruba</option>
+			<option value="Australia">Australia</option>
+			<option value="Austria">Austria</option>
+			<option value="Azerbaijan">Azerbaijan</option>
+			<option value="Bahamas">Bahamas</option>
+			<option value="Bahrain">Bahrain</option>
+			<option value="Bangladesh">Bangladesh</option>
+			<option value="Barbados">Barbados</option>
+			<option value="Belarus">Belarus</option>
+			<option value="Belgium">Belgium</option>
+			<option value="Belize">Belize</option>
+			<option value="Benin">Benin</option>
+			<option value="Bermuda">Bermuda</option>
+			<option value="Bhutan">Bhutan</option>
+			<option value="Bolivia">Bolivia</option>
+			<option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
+			<option value="Botswana">Botswana</option>
+			<option value="Bouvet Island">Bouvet Island</option>
+			<option value="Brazil">Brazil</option>
+			<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+			<option value="Brunei Darussalam">Brunei Darussalam</option>
+			<option value="india">india</option>
+			<option value="Burkina Faso">Burkina Faso</option>
+			<option value="Burundi">Burundi</option>
+			<option value="Cambodia">Cambodia</option>
+			<option value="Cameroon">Cameroon</option>
+			<option value="Canada">Canada</option>
+			<option value="Cape Verde">Cape Verde</option>
+			<option value="Cayman Islands">Cayman Islands</option>
+			<option value="Central African Republic">Central African Republic</option>
+			<option value="Chad">Chad</option>
+			<option value="Chile">Chile</option>
+			<option value="China">China</option>
+         </select>
+         <textarea rows="4" cols="33" name="address" placeholder="Enter Address"></textarea>
+         
+          <button>Register</button>
+          <input type="reset" class="button1" value="Reset">
+        </form>
+      </div>
+    </div>
+
+
+
+</body>
+</html>
